@@ -1,7 +1,7 @@
 import math
 
 def is_prime(n):
-    '''calcula los numeros primos del 1 al 100'''
+    """calcula los numeros primos del 1 al 100"""
     if n <= 1:
         return False
     for i in range(2, int(math.sqrt(n) + 1)):
