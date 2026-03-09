@@ -13,7 +13,7 @@ def get_age_group(age):
          return 'adulto'
      elif age >= 65 and age <= 80: 
          return 'vejez'
-     elif age > 80 and < 150: 
+     elif age > 80 and age < 150: 
          return 'fuera de rango'
      
          # Completa esta función para que pase la prueba unitaria
