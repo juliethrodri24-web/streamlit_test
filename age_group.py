@@ -24,4 +24,7 @@ def get_age_group(age):
      assert get_age_group(65) == 'vejez'
      assert get_age_group(80) == 'vejez'
      assert get_age_group(150) == 'desconocido'
+     
+     if age >= 0 and <= 150
+     
  
