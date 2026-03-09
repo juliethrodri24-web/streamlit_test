@@ -5,7 +5,6 @@ def sign(x):
         return None
     if x < 0:
         return -1
-    return 1
 
 # Prueba la función sign()
 def test_sign():
