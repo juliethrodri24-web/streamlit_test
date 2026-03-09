@@ -33,7 +33,8 @@ def get_age_group(age):
      assert get_age_group(80) == 'vejez'
      assert get_age_group(150) == 'desconocido'
      print("todas las pruebas pasaron con exito!")
-test_get_age_group()
+if __name__ == "__main__"
+    test_get_age_group()
 
      
     
